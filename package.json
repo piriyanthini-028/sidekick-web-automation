@@ -1,0 +1,19 @@
+{
+  "name": "sidekick-web-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation test suite for the sidekick-web app",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen"
+  },
+  "keywords": ["playwright", "automation", "testing", "sidekick-web"],
+  "author": "piriyanthini-028",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
